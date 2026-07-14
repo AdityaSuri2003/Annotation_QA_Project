@@ -1,0 +1,26 @@
+{
+  "images": [
+    { "id": 1, "file_name": "scene_001.jpg", "width": 640, "height": 480 },
+    { "id": 2, "file_name": "scene_002.jpg", "width": 640, "height": 480 },
+    { "id": 3, "file_name": "scene_003.jpg", "width": 640, "height": 480 }
+  ],
+  "categories": [
+    { "id": 1, "name": "car" },
+    { "id": 2, "name": "pedestrian" },
+    { "id": 3, "name": "sign" },
+    { "id": 4, "name": "truck" }
+  ],
+  "annotations": [
+    { "id": 1, "image_id": 1, "category_id": 1, "bbox": [80, 300, 140, 100] },
+    { "id": 2, "image_id": 1, "category_id": 2, "bbox": [400, 250, 40, 150] },
+
+    { "id": 3, "image_id": 2, "category_id": 4, "bbox": [500, 260, 200, 160] },
+    { "id": 4, "image_id": 2, "category_id": 3, "bbox": [100, 150, 40, 70] },
+    { "id": 5, "image_id": 2, "category_id": 3, "bbox": [620, 150, 60, 70] },
+
+    { "id": 6, "image_id": 3, "category_id": 1, "bbox": [150, 280, 170, 120] },
+    { "id": 7, "image_id": 3, "category_id": 1, "bbox": [170, 285, 170, 120] },
+    { "id": 8, "image_id": 3, "category_id": 1, "bbox": [-5, 300, 50, 40] },
+    { "id": 9, "image_id": 3, "category_id": 2, "bbox": [300, 300, 0, 50] }
+  ]
+}
